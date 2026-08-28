@@ -2,9 +2,10 @@
 
 def word_reverser(sentence):
     words = sentence.split(" ")
-    reversed = [word[::-1] for word in words]
-    return " ".join(reversed)
+    reversed_words = [word[::-1] for word in words]
+    return " ".join(reversed_words)
     
 sentence = "Python is versatile programing language"
-reversed = word_reverser(sentence)
-print(reversed )
+
+reversed_sentence = word_reverser(sentence)
+print(reversed_sentence)
